@@ -31,6 +31,7 @@ const Banner = ({ title }) => (
   <h1>{ title }</h1>
 );
 
+// additional utilities (we weren't told to put these in a separate file)
 const meetsPat = /^ *((?:M|Tu|W|Th|F)+) +(\d\d?):(\d\d) *[ -] *(\d\d?):(\d\d) *$/;
 
 const timeParts = meets => {
